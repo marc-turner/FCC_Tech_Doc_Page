@@ -9,9 +9,16 @@ body {
     line-height: 1.5rem;
 }
 
-h1 {
-    font-size: 1rem;
-    font-weight: bold;
+header {
+    font-size: 1.25rem;
+}
+
+p {
+    padding: 0 10px;
+}
+
+li {
+    padding: 0 30px;
 }
 
 a {
@@ -28,17 +35,41 @@ a {
 }
 
 .nav-column {
+    min-width: 290px;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 300px;
-    border-right: grey 3px solid;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
 }
 
-.nav-bar_item {
-    width: 100%;
-    padding: 10px 0 10px 30px;
-    border: 1px solid #000;
+.nav-bar_header {
+    padding: 10px 0 10px 20px;
+}
+
+.nav-link {
+    padding: 10px 0 10px 20px;
+    border-top: 1px solid #000;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
 }
 
 .content-column {
     width: 100%;
-    background-color: blue;
+}
+
+.main-section {
+    padding: 30px;
+}
+
+.code-div {
+    padding: 10px;
+    margin: 17px;
+    background-color: #979696;
+    border-radius: 5px;
 }
