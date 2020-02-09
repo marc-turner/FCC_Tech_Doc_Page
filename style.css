@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-column {
+    width: 300px;
+    border-right: grey 3px solid;
+}
+
+.nav-bar_item {
+    width: 100%;
+    padding: 10px 0 10px 30px;
+    border: 1px solid #000;
+}
+
+.content-column {
+    width: 100%;
+    background-color: blue;
+}
