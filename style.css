@@ -46,10 +46,10 @@ a {
 }
 
 .nav-bar_header {
-    padding: 10px 0 10px 20px;
+    padding: 20px 0 20px 20px;
 }
 
-.nav-link {
+.navlink {
     padding: 10px 0 10px 20px;
     border-top: 1px solid #000;
 }
@@ -72,4 +72,10 @@ a {
     margin: 17px;
     background-color: #979696;
     border-radius: 5px;
+}
+
+@media (max-width: 815px) {
+    .nav-bar_header {
+        padding: 0;
+    }
 }
